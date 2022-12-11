@@ -1,0 +1,572 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    width: 100%;
+    /* background-color: rgb(108, 223, 246); */
+    background-color: rgb(255, 255, 255);
+}
+.total{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.bar{
+    margin: 10px 200px;
+}
+.totalbar{
+    float: left;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+.totalbar h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(0, 199, 199);
+}
+.totalbar ul li{
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px 15px;
+    padding-bottom: px;
+}
+.totalbar img{
+float: right;
+}
+.calllogo{
+    float: left;
+}
+.calllogo img{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.contactus{
+    float: right;
+}
+
+/* insurance */
+
+.back{
+    width: 100%;
+}
+.backimg{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.totl-img img{
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+button{
+  font-size: 25px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(3, 208, 208);
+  font-weight: 600;  
+}
+button:hover{
+    background-image: linear-gradient(aqua,white);
+    color: rgb(255, 255, 255);
+}
+.capital h1{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    /* box-shadow: 0px 0px 5px red,0px 0px 5px black,0px 0px 5px blue; */
+}
+.capital{
+    position: absolute;
+    
+    transform: translate(170%,-200%);
+    text-align: center;  
+}
+
+/* get to know us */
+
+.treeimg{
+    width: 100%;
+}
+.sobimg{
+    width: 100%;
+    display: table;
+    clear: both;
+    
+
+}
+.get{
+    padding-top: 70px;
+    margin: 0px 230px;
+}
+.someimg{
+    float: left;
+    width: 300px;
+    margin-left: 50px;
+}
+.frindly{
+  width: 20%;
+float: left;
+text-align: center;
+margin-left: 200px;
+margin-top: 70px;
+}
+.frindly h5{
+font-size: 20px;
+margin: 10px 100;
+color: rgb(0, 200, 200);
+}
+
+.online{
+    width: 20%;
+    float: right;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+.online h5{
+    font-size: 20px;
+    margin: 10px 100;
+    color: rgb(0, 200, 200);
+}
+.someimg h5{
+    font-size: 20px;
+    margin: 10px 0;
+    color: rgb(169, 161, 0);
+}
+.someimg h3{
+    font-size: 50px;
+    margin-top: 20px;
+    color: rgb(0, 195, 195);
+}
+.someimg p{
+   font-size: 18px;
+   margin-top: 20px;
+   text-align: justify;
+}
+.someimg h6{
+   font-size: 20px;
+   /* margin-top: 15px; */
+   margin-top: 30px;
+   
+   padding: 10px;
+   text-align: center;
+   border-radius: 20px;
+   
+   color: antiquewhite;
+   background-color: slategrey;
+}
+
+
+/* bigness dill */
+
+.human{
+    width: 100%;
+    background-color: rgb(250, 250, 236);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+.totalhuman{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.view{
+    margin: 100px 300px 20px;
+}
+.relaiable{
+    float: left;
+}
+.relaiable img{
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+}
+.someinfo{
+    width: 30%;
+    float: right;
+    background-color: rgb(246, 237, 226);
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 0px rgb(53, 53, 49);
+}
+.someinfo h2{
+    font-size: 45px;
+}
+.para{
+   margin-bottom: 30px;
+}
+.zero{
+    text-align: center;
+}
+.zero h4{
+   
+    margin: 10px;
+    padding: 5px;
+    color: blue;
+    font-size: 20px;
+ 
+    border-radius: 3px;
+}
+.ooo{
+    background-color: rgb(37, 1, 240);
+    color: aliceblue;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    transform: translate(700%,-350%);
+    border-radius: 10px;
+}
+
+/* life insurance */
+
+
+.totalcapital h1{
+    text-align: center;
+    color: rgb(204, 187, 1);
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+.six{
+    width: 100%;
+}
+.power{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.totalpower{
+    margin: 30px 200px;
+    padding-left: 20px;
+}
+.img img{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+.sob{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    float: left;
+    background-color: rgb(246, 246, 218);
+    margin: 10px;
+   
+}
+.somepara h3{
+    margin: 20px;
+    font-size: 25px;
+}
+.somepara p{
+  margin: 20px;
+}
+
+
+/* protect */
+
+.protect{
+    width: 100%;
+    
+}
+.totalprotect{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.sobprotect{
+    margin: 100px 300px 0px;
+}
+.rightooo{
+    float: left;
+    margin: 10px;
+    padding-top: 2px;
+}
+.haha{
+    float: right;
+    margin: 20px;
+    padding-right: 15px;
+}
+.smartman img{
+    width: 400px;
+    height: 500px;
+    float: right;
+    margin-top: px;
+   
+}
+.letsgo{
+    width: 300px;
+    float: left;
+}
+.letsgo h1{
+    margin: 20px 0px;
+    font-size: 40px;
+}
+.letsgo h2{
+    margin: 30px 0px;
+}
+.letsgo h6{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.find{
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgb(0, 195, 244);
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+/* client satiesfied  */
+
+
+.clll h1{
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.eight{
+    width: 100%;
+   
+    
+}
+.people{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.sonatok{
+    margin: 0px 400px;
+    display: flex
+    
+   
+    
+
+}
+.foroo{
+    float: left;
+    margin: 5px;
+    padding: 30px 30px;
+    background-color: aqua;
+    border-radius: 25px;  
+    text-align: center;
+
+}
+.foroo h3{
+  font-size: 40px;
+}
+.foroo{
+   font-size: 20px;
+}
+
+/* client says */
+
+.middlee h1{
+    font-size: 45px;
+    text-align: center;
+    color: rgb(213, 206, 0);
+    margin: 40px;
+}
+
+.client{
+    width: 100%;
+}
+.says{
+    width: 100%;
+    display: table;
+    clear: both;
+   
+}
+.totalsays{
+    margin: 0px 330px;
+    
+}
+.clientimg{
+    float: left;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+.clientimg img{
+      width: 250px;
+      height: 250px;
+      border-radius: 10px
+}
+.clientimg h3{
+    margin: 15px 0;
+    font-size: 25px;
+    color: rgb(0, 180, 180);
+}
+
+
+/* hone lone */
+
+.upna{
+    width: 100%;
+}
+.treeoo{
+    width: 100%;
+    display: table;
+    clear: both;  
+}
+.noneo{
+    margin: 30px 350px;
+}
+.rekkk img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    
+   
+}
+.tara h1{
+    text-align: center;
+    font-size: 35px;
+    margin: 20px 0;
+    padding-top: 40px;
+}
+
+
+/* addresh bar */
+
+
+.fisul{
+    width: 100%;
+}
+.jaya{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.may{
+    margin: 100px 300px;
+}
+
+.div{
+    float: left;
+    margin-top: 60px;
+    background-color: rgb(238, 246, 246);
+    padding: 15px;
+}
+.div input{
+   font-size: 25px;
+   margin: 25px 0;
+}
+.div label{
+   font-size: 25px;
+   margin: 30px 0;
+}
+.addresh{
+    float: right;
+    width: 400px;
+}
+.addresh h1{
+  color: rgb(203, 173, 0);
+  font-size: 35px;
+}
+
+.two{
+    width: 100%;
+}
+.addoo img{
+     width: 30px;
+     height: 30px;
+    
+
+}
+.addoo{
+ 
+  margin: 30px;
+}
+.sun{
+    margin-left: 150px;
+   text-align: center;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+   
+    background-color: rgb(58, 210, 241);
+    font-size: 35px;
+}
+.sun:hover{
+   background-image: linear-gradient(orange,black);
+}
+
+/* insurance */
+
+.insurancecom{
+    width: 100%;
+    background-color: rgb(250, 203, 117);
+    margin-top: 30px;
+}
+.company{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.none{
+    margin: 20px 100px;
+}
+.nonecom{
+    float: left;
+    font-size: 25px;
+}
+.insuimg{
+    float: right;
+}
+.nonetec{
+    float: left;
+    margin: 20px ;
+}
+
+/* last bar */
+
+.orlayer{
+    width: 100%;
+    background-color: goldenrod;
+}
+.nonelayer{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.hahao{
+    margin: 20px 50px;
+}
+.moduluas{
+    float: left;
+    margin-left: 150px;
+    text-align: center;
+}
+.moduluas h1{
+ margin: 10px;
+ color: blue;
+}
+.moduluas h4{
+ margin: 10px;
+}
+.moduluas h5{
+ margin: 10px;
+ font-size: 15px;
+}
+.moduluas h6{
+ margin: 10px;
+ font-size: 15px;
+}
+    
+
+
